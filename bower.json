@@ -1,0 +1,25 @@
+{
+  "name": "theme-editor",
+  "version": "0.0.0",
+  "authors": [
+    "lcanet <lc@lc6.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "less.js": "~2.5.3",
+    "lodash": "~3.10.1",
+    "angular-bootstrap-colorpicker": "~3.0.19"
+  },
+  "devDependencies": {}
+}

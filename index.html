@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="themeeditor.demo">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Theme editor</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css">
+
+    <link rel="stylesheet" href="css/themeeditor.css">
+
+    <link rel="stylesheet/less" type="text/css" href="less/application.less" />
+
+</head>
+<body ng-controller="MainCtrl">
+
+<div class="box">
+    <div class="box-title">
+        A Box title
+    </div>
+    <div class="box-content">
+        <p>A box content.
+            <span class="important">I'm important !</span>
+        </p>
+
+    </div>
+
+</div>
+
+<div class="theme-editor-popup">
+    <theme-editor theme="theme"></theme-editor>
+
+</div>
+
+
+<hr/>
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/less.js/dist/less.js"></script>
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="bower_components/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js"></script>
+<script src="js/themeeditor.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>

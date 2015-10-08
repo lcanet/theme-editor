@@ -1,0 +1,10 @@
+.theme-editor-popup {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    right: 0;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
